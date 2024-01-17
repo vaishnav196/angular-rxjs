@@ -1,0 +1,13 @@
+<br><hr>
+<div class="container sub-container">
+    <!-- <h1>unsubscribe works!</h1> -->
+    <div class="sub-cont">
+        <h4>subscriber </h4>
+        <div class="data-list mt-2" *ngFor="let x of data">
+            <h5 class="sub">{{x}}</h5>
+        </div>
+        <button mat-raised-button color="accent" (click)="onsubscribe()">Subscribe</button>
+    <button mat-raised-button color="warn" class="btn mx-2" (click)="onUnsubscribe()">Unsubscribe</button>
+    </div>
+
+</div>

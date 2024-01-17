@@ -1,0 +1,14 @@
+<div class="container ">
+  <h1>Observable in angular</h1>
+  <div class="data m-5">
+    <h1  *ngFor="let item of data">{{item}}</h1>
+ 
+  </div>
+  <button mat-flat-button color="warn" (click)="getdata()">Getdata</button>
+
+  
+</div>
+<hr>
+<app-newtask></app-newtask>
+<app-showtask></app-showtask>
+<app-unsubscribe></app-unsubscribe>

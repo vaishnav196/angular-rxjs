@@ -1,0 +1,15 @@
+.task-bg{
+    background-color: rgb(179, 187, 187);
+    margin: 15px;
+    padding: 15px 10px;
+    border: 1px solid rgb(179, 187, 187);
+    border-radius: 25px;
+    width: 50%;
+    /* margin: auto; */
+    
+    display: flex;
+
+}
+.task-shower h4{
+    text-align: center;
+}
